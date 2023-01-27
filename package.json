@@ -1,29 +1,33 @@
 {
-  "name": "weather-cli",
+  "name": "openweather-cli",
   "version": "1.0.0",
-  "description": "CLI for getting weather",
+  "description": "CLI app for getting weather from https://openweathermap.org/",
   "main": "weather.js",
   "bin": {
     "weather": "weather.js"
   },
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node weather.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cli",
     "weather"
   ],
-  "author": "Anton Larichev",
+  "author": "Dmitriy Izotov",
   "license": "ISC",
-  "homepage": "https://purpleschool.ru",
+  "homepage": "https://github.com/DiSayThis",
   "repository": {
     "type": "git",
-    "url": "https://purpleschool.ru"
+    "url": "https://github.com/DiSayThis/openweather-cli"
   },
   "bugs": {
-    "url": "https://purpleschool.ru",
-    "email": "antonlarichev@gmail.com"
+    "email": "DiSayThis@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.2.4",
+    "chalk": "^5.2.0",
+    "dedent-js": "^1.0.1"
   }
 }
