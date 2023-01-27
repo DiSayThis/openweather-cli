@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "openweather-cli",
   "version": "1.0.0",
   "description": "CLI app for getting weather from https://openweathermap.org/",
   "main": "weather.js",
