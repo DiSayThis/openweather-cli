@@ -15,16 +15,15 @@
     "cli",
     "weather"
   ],
-  "author": "Anton Larichev",
+  "author": "Dmitriy Izotov",
   "license": "ISC",
-  "homepage": "https://purpleschool.ru",
+  "homepage": "https://github.com/DiSayThis",
   "repository": {
     "type": "git",
-    "url": "https://purpleschool.ru"
+    "url": "https://github.com/DiSayThis/openweather-cli"
   },
   "bugs": {
-    "url": "https://purpleschool.ru",
-    "email": "antonlarichev@gmail.com"
+    "email": "DiSayThis@gmail.com"
   },
   "dependencies": {
     "axios": "^1.2.4",
