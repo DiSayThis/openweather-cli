@@ -4,11 +4,14 @@
 
 ## openweather-cli
 
-CLI app for getting weather from https://openweathermap.org/
+CLI app for getting weather from api https://openweathermap.org/
+
+Before using cli, register on [OpenWeather](https://openweathermap.org/) and copy your API_KEY, it will be your token.
 
 ## Options
 
-Weather-Cli saves settings in a configuration file in the OS home directory.
+Weather-CLI saves settings in a configuration file in the OS home directory.
+CLI supports TOKEN and CITY env variables.
 
 - -h - help description
 - -t - set token from api https://openweathermap.org/ in config file
